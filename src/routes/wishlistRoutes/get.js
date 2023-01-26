@@ -1,7 +1,7 @@
 
 const router = require("express").Router();
 
-const { wishlist, wishlistByUserId } = require('../../Controllers/wishListController');
+const { wishlist, wishlistByUserId } = require('../../controllers/wishListController');
 
 router.get('/', async (req, res) => {
     const { userId } = req.query
